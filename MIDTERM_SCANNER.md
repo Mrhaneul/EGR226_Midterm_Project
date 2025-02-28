@@ -84,6 +84,8 @@ The scanning process scans larger chunks of data, adjusting size based on detect
 
 Upon completion, the output shows detected signatures, revealing the matches found from the scanning process. 
 
+![image](https://github.com/user-attachments/assets/114dd58e-0c82-4bb4-a6bf-faadf56b009e)
+
 5.3. ️ Setting Up the Malware Analysis Tool
 
 Python 3 initiates a Flask process for hosting the analysis tool on multiple interfaces. 
