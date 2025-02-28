@@ -1,7 +1,6 @@
 # EGR226_Midterm_Project
 
 1. 🛠️ Setting Up Malware Scanning Lab
-The lab will mimic anti-scan.me for scanning malware with preferred antivirus. 
 
 The tool used is called AVET, which stands for Antivirus Reduction. 
 
@@ -82,9 +81,12 @@ The scanning process scans larger chunks of data, adjusting size based on detect
 Upon completion, the output shows detected signatures, revealing the matches found from the scanning process. 
 
 5.3. ️ Setting Up the Malware Analysis Tool
+
 Python 3 initiates a Flask process for hosting the analysis tool on multiple interfaces. 
 
 Users can navigate to the Local Host to access the analysis interface. 
+![image](https://github.com/user-attachments/assets/430c8448-7415-4be9-9392-ea94523d8665)
+
 
 The interface allows for file uploads, which require specifying servers defined in the configuration file. 
 
@@ -93,7 +95,6 @@ Scanned files show relevant details such as the date, type, and matched signatur
 Users can view scan results, including sections scanned and conclusions based on Windows Defender. 
 
 5.4. Exploring File Scanning with the Tool
-The presenter demonstrates the tool's functionality by uploading a file named t.exe for scanning, which aids in generating detailed results. 
 
 The tool scans files in chunks, varying based on the file's content to optimize the scanning process and yield accurate results. 
 
@@ -101,17 +102,4 @@ It is highlighted that the tool can upload files as small as 460 bytes, showcasi
 
 The tool allows customization, enabling users to change the analysis to different antivirus (AV) options, enhancing its versatility. 
 
-The speaker appreciates the tool's design, stating it efficiently identifies which chunks were processed and which were not. 
 
-5.5. Acknowledgments and Process Overview
-The speaker expresses heartfelt gratitude to viewers and highlights appreciation for their first Patreon, emphasizing the impact of this support. 
-
-Patrons gain access to custom tools and notes prepared over the speaker's years of experience. 
-
-The signature-based detection process is time-consuming, involving file splitting and scanning. 
-
-Current discussions focus solely on signature-based detection, not addressing heuristics or behavior-based methods. 
-
-The capability to transfer files for scanning is enabled by an MZ interface over HTTP, utilizing Windows APIs for scanning procedures. 
-
-Viewers are encouraged to ask questions or request reviews of materials in the comments. 
