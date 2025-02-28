@@ -110,7 +110,8 @@ It is highlighted that the tool can upload files as small as 460 bytes, showcasi
 
 The tool allows customization, enabling users to change the analysis to different antivirus (AV) options, enhancing its versatility. 
 
-##Three main features of the malware scanner
+
+## Three main features of the malware scanner
 
 🛠️ Signature-Based Malware Detection
 
