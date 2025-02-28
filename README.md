@@ -85,14 +85,18 @@ Upon completion, the output shows detected signatures, revealing the matches fou
 Python 3 initiates a Flask process for hosting the analysis tool on multiple interfaces. 
 
 Users can navigate to the Local Host to access the analysis interface. 
-![image](https://github.com/user-attachments/assets/430c8448-7415-4be9-9392-ea94523d8665)
 
+![image](https://github.com/user-attachments/assets/430c8448-7415-4be9-9392-ea94523d8665)
 
 The interface allows for file uploads, which require specifying servers defined in the configuration file. 
 
+![image](https://github.com/user-attachments/assets/6e0f0453-b290-4e58-b7d4-830a1670a844)
+
 Scanned files show relevant details such as the date, type, and matched signatures after file uploads. 
 
-Users can view scan results, including sections scanned and conclusions based on Windows Defender. 
+Users can view scan results, including sections scanned and conclusions based on Windows Defender. \
+
+![image](https://github.com/user-attachments/assets/6ae54397-6c1f-4eba-aa5b-3a0d45294439)
 
 5.4. Exploring File Scanning with the Tool
 
