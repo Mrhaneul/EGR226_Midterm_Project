@@ -11,6 +11,7 @@ It offers advantages over TrID check and comes with documentation for supported 
 
 
 2. 🛠️ Setting Up the A Server for Malware Analysis
+
 Two sets of tools are required, with the first being the A server, installed on Windows 10 without an antivirus. 
 
 The sample submissions must have the submission turned off to prevent global malware flags. 
@@ -24,6 +25,7 @@ It's suggested to configure the server as a service to avoid manual startup.
 
 
 3. 🚀 Setting Up the Malware Analysis Tool
+
 The speaker references a config.js file that contains settings for the IP, port, and engine to be used. 
 
 A simple string is presented, allowing flexibility in naming, although the speaker chooses to keep it unchanged. 
@@ -35,6 +37,7 @@ The server can be accessed via local host, displaying a confirmation message sta
 
 
 4. 🛠️ Setting Up the Malware Analysis Tool
+
 The speaker is preparing to generate malware and initiate a scan using their car machine. 
 
 The first step involves downloading a tool from the GitHub repository, which is done using the `git clone` command. 
@@ -48,6 +51,7 @@ Installation of the Radar 2 framework is completed in a new terminal session, an
 
 
 5. 🛠️ Building and Configuring the Malware Analysis Tool
+
 The configuration file defines important parameters like IP address, port, and engine name, with an example being set to "Defender" for Windows Defender. 
 
 The tool allows for various operations, including scanning single files or all files in app uploads, with configurable scan speeds. 
