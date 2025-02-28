@@ -110,4 +110,22 @@ It is highlighted that the tool can upload files as small as 460 bytes, showcasi
 
 The tool allows customization, enabling users to change the analysis to different antivirus (AV) options, enhancing its versatility. 
 
+##Three main features of the malware scanner
 
+🛠️ Signature-Based Malware Detection
+
+The tool scans files for known malware signatures, flagging specific byte sequences that match antivirus definitions.
+It provides a detailed report of flagged bytes, pinpointing their exact locations within the scanned file.
+This allows security analysts to identify malicious patterns and understand how antivirus engines detect threats.
+
+🚀 Configurable Malware Scanning Engine
+
+The tool supports customization of scanning parameters, including IP address, port, and antivirus engine selection (e.g., Windows Defender).
+Users can configure the tool to scan single files, bulk files, or adjust scan speeds based on requirements.
+The tool processes files in chunks, dynamically adjusting chunk sizes for optimized detection and performance.
+
+🌐 Web Interface for File Scanning and Analysis
+
+The tool features a Flask-based web interface, allowing users to upload and scan files easily.
+The interface displays scan progress, detected signatures, and detailed results in a user-friendly manner.
+Users can customize scanning options and view logs to analyze how files are flagged by different antivirus solutions.
