@@ -1,6 +1,5 @@
 # EGR226_Midterm_Project
 
-This video guides viewers on how to build their own malware analysis tool using AET( Antivirus Evasion Tool). The central theme is to create a lab environment that mimics antivirus scanning to analyze malware effectively. The video demonstrates the installation and configuration of both the AETserver on a Windows machine and the AETclient on a Kali machine. It also covers how to scan files and analyze the results through both the command line and a web interface. By following this tutorial, viewers can gain practical experience in signature-based malware detection and understand how antivirus solutions identify malicious code.
 1. 🛠️ Setting Up Malware Scanning Lab
 The lab will mimic anti-scan.me for scanning malware with preferred antivirus. 
 
